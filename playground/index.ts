@@ -10,8 +10,19 @@ import {SampleModule} from 'ng-full-screen-expandable';
 
 @Component({
     selector: 'app',
+    styles: [
+            `
+            .expandable {
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                top: 50px;
+                left: 100px;
+            }
+        `
+    ],
     template: `
-        <sample-component></sample-component>`
+        <ng-full-screen-expandable class="expandable"></ng-full-screen-expandable>`
 })
 class AppComponent {
 }
