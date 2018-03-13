@@ -13,6 +13,7 @@ import {SampleModule} from 'ng-full-screen-expandable';
     styles: [
             `
             .expandable {
+                background: blue;
                 position: absolute;
                 height: 50px;
                 width: 50px;
@@ -22,9 +23,14 @@ import {SampleModule} from 'ng-full-screen-expandable';
         `
     ],
     template: `
-        <ng-full-screen-expandable class="expandable"></ng-full-screen-expandable>`
+        <ng-full-screen-expandable (click)="expanded = !expanded"
+                                   [expanded]="expanded"
+                                   class="expandable">
+            What is up
+        </ng-full-screen-expandable>`
 })
 class AppComponent {
+    public expanded = false;
 }
 
 @NgModule({
