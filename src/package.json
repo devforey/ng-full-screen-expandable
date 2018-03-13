@@ -1,0 +1,28 @@
+{
+  "name": "ng-full-screen-expandable",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devforey/ng-full-screen-expandable.git"
+  },
+  "author": {
+    "name": "Mark Christoper Vizcarra",
+    "email": "devforey@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devforey/ng-full-screen-expandable.git/issues"
+  },
+  "main": "ng-full-screen-expandable.umd.js",
+  "module": "ng-full-screen-expandable.js",
+  "jsnext:main": "ng-full-screen-expandable.js",
+  "typings": "ng-full-screen-expandable.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
