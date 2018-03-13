@@ -17,7 +17,7 @@ import {
             })),
             state('full', style({
                 backgroundColor: '#cfd8dc',
-                transform: 'scale(1.1)'
+                transform: 'scale(5)'
             })),
             transition('default => full', animate('100ms ease-in')),
             transition('full => default', animate('100ms ease-out'))

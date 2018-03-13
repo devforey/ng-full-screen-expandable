@@ -5,7 +5,7 @@ import {SampleDirective} from './sample.directive';
 import {SamplePipe} from './sample.pipe';
 import {SampleService} from './sample.service';
 import {NgFullScreenExpandableComponent} from './ng-full-screen-expandable.component';
-import {NoopAnimationsModule} from '@angular/platform-browser/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 export * from './sample.component';
 export * from './sample.directive';
@@ -15,7 +15,7 @@ export * from './sample.service';
 @NgModule({
     imports: [
         CommonModule,
-        NoopAnimationsModule,
+        BrowserAnimationsModule,
     ],
     declarations: [
         NgFullScreenExpandableComponent,
